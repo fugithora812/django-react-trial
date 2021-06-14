@@ -38,7 +38,8 @@ $ npm ci
 
 # 描画の動き
 
-```python backend/react_app/views.py
+- backend/react_app/views.py
+```python:backend/react_app/views.py
 from django.shortcuts import render
 from django.http import HttpRequest, HttpResponse
 
@@ -48,7 +49,8 @@ def index(request: HttpRequest) -> HttpResponse:
 ```
 上記index関数で/templates以下のhtmlテンプレートを指定し、描画する
 
-```html backend/react_app/templates/main/index.html
+- backend/react_app/templates/main/index.html
+```html:backend/react_app/templates/main/index.html
 <!DOCTYPE html>
 
 {% load static %}
